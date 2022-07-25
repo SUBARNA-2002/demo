@@ -5,7 +5,7 @@ rightNav = document.querySelector('.rightnav')
 
 
 burger.addEventListener('click',()=>{
-    rightNav.ClassList.toggle('v-class-resp');
-    navList.ClassList.toggle('v-class-resp');
-    navbar.ClassList.toggle('h-nav-resp');
+    rightNav.classList.toggle('v-class-resp');
+    navList.classList.toggle('v-class-resp');
+    navbar.classList.toggle('h-nav-resp');
 })
